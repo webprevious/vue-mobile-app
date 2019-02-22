@@ -27,11 +27,11 @@ yarn run lint
 
 ### 目录介绍
 
-处理了移动自适应问题，100px = 1rem，解决了vant中但是px转换成rem，封装了axios和vuex持久化
+> 处理了移动自适应问题，100px = 1rem，解决了vant中但是px转换成rem，封装了axios和vuex持久化
 
-### public目录是项目index.html和title上的icon
+##### public目录是项目index.html和title上的icon
 
-### src是项目源码目录
+##### src是项目源码目录
 
 * assets目录
 > 放置图片，样式静态资源目录
@@ -50,22 +50,22 @@ yarn run lint
 * router.js
 > 路由配置文件，当前有2个路由页面home和about
 
-### .editorconfig是vs code编辑器代码编辑爱好
+##### .editorconfig是vs code编辑器代码编辑爱好
 
-### .env文件是项目环境监控文件
+##### .env文件是项目环境监控文件
 
-### .env.development是开发环境时项目环境配置，配置的键值对可以在全局process.env中获取
+##### .env.development是开发环境时项目环境配置，配置的键值对可以在全局process.env中获取
 
-### .env.production是生产环境时（也就是线上环境）项目环境配置，配置的键值对可以在全局process.env中获取
+##### .env.production是生产环境时（也就是线上环境）项目环境配置，配置的键值对可以在全局process.env中获取
 
-### .env.production是测试环境时（也就是线上预发测试环境）项目环境配置，配置的键值对可以在全局process.env中获取
+##### .env.production是测试环境时（也就是线上预发测试环境）项目环境配置，配置的键值对可以在全局process.env中获取
 
-### .gitignore项目上传到git时的忽略文件，也就是不上传的文件
+##### .gitignore项目上传到git时的忽略文件，也就是不上传的文件
 
-### babel.config.js babel打包转译时的配置文件，里面配置本次移动端开发
+##### babel.config.js babel打包转译时的配置文件，里面配置本次移动端开发
 
-### package.json，package-lock.json项目依赖配置文件
+##### package.json，package-lock.json项目依赖配置文件
 
-### vue.config.js vue-cli3项目的配置文件，简化了vue-cli2的webpack配置
+##### vue.config.js vue-cli3项目的配置文件，简化了vue-cli2的webpack配置
 
-### yarn.lock 使用yarn包管理工具的配置文件
+##### yarn.lock 使用yarn包管理工具的配置文件
