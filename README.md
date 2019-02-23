@@ -25,9 +25,10 @@ yarn run test
 yarn run lint
 ```
 
-### 目录介绍
+### 项目介绍
+> 使用了vue-cli3脚手架搭建的移动端初始化项目，处理了移动自适应问题，100px = 1rem，集成了按需引入的vant组件UI库，还对vant的中px转成了rem，封装了axios请求，引入了reset.css,vuex使用sessionStorage进行持久化，vue-router
 
-> 处理了移动自适应问题，100px = 1rem，解决了vant中但是px转换成rem，封装了axios和vuex持久化
+### 目录介绍
 
 ##### public目录是项目index.html和title上的icon
 
