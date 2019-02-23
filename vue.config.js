@@ -19,7 +19,7 @@ module.exports = {
     proxy: {
       '^/api': {
         ws: false,
-        target: 'http://wzh1.run.hzmantu.com',
+        target: 'https://api.local.hzmantu.com',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
