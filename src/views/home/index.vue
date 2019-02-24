@@ -12,13 +12,19 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapActions, mapState } from 'vuex'
 export default {
   name: 'home',
   data () {
     return {
       userName: ''
     }
+  },
+  computed: {
+    ...mapState({
+      // 登陆者信息
+      userInfo: state => state.userInfo.userInfo
+    })
   },
   methods: {
     saveUserInfoToVuex () {
@@ -28,7 +34,11 @@ export default {
       this.saveUserInfo(userInfo)
     },
     goTo () {
-      this.$router.push('/about')
+      if (this.userInfo) {
+        this.$router.push('/about')
+      } else {
+        this.$toast('请填写用户名')
+      }
     },
     ...mapActions(['saveUserInfo'])
   }

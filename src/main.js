@@ -5,8 +5,8 @@ import store from '@/vuex/store.js'
 import axios from '@/utils/axios/ajax.js'
 import '@/assets/reset.css'
 
-import { Button, Field } from 'vant'
-Vue.use(Button).use(Field)
+import { Button, Field, Toast } from 'vant'
+Vue.use(Button).use(Field).use(Toast)
 
 Vue.config.productionTip = false
 Vue.prototype.$axios = axios

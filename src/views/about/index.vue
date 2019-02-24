@@ -26,8 +26,7 @@ export default {
   methods: {
     async getGithubUserInfo () {
       let data = {}
-      let res = await this.$axios('/business/common/get_host', data)
-      console.log(res)
+      this.result = await this.$axios('/business/common/get_host', data)
     }
   }
 }
