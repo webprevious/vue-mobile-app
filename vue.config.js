@@ -29,8 +29,8 @@ module.exports = {
     // disableHostCheck: true
     port: 8084
   },
-  css:{
-    sourceMap:false,
+  css: {
+    sourceMap: false,
     loaderOptions: {
       postcss: {
         plugins: [
